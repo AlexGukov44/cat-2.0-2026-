@@ -149,4 +149,7 @@ li {
     .container {
         grid-template-columns: 1fr;
     }
+    li {
+        font-size: 15px;
+    }
 }
