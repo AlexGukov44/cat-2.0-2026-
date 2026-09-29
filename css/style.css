@@ -3,13 +3,17 @@
 * {
     box-sizing: border-box;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .wrapper {
     width: 100%;          
     max-width: 1200px;     
     height: auto; 
     margin: 0 auto;
+    padding: 5px;
     background-color: #D4EAFF;
 }
 
@@ -18,7 +22,7 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin: 0 30px;
+    /* margin: 0 30px; */
 }
 .cat {
     width: 530px;
@@ -36,7 +40,8 @@ h1 {
 
 
 .box {
-    width: 1150px;
+    width: 100%;
+    max-width: 1150px;
     border-radius: 30px;
     margin: 0 auto;
     margin-top: 0;
